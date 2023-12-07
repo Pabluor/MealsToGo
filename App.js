@@ -1,5 +1,6 @@
+import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, StyleSheet, Text, View, Platform } from 'react-native';
+import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
@@ -11,7 +12,6 @@ export default function App() {
       <View style={styles.list}>
         <Text>List</Text>
       </View>
-
     </SafeAreaView>
   );
 }
@@ -19,19 +19,19 @@ export default function App() {
 const styles = StyleSheet.create({
   appContainer: {
     flex: 1,
-    marginTop: StatusBar.currentHeight
+    marginTop: StatusBar.currentHeight,
   },
   search: {
     backgroundColor: 'thistle',
     justifyContent: 'center',
     padding: 16,
     borderBottomWidth: 4,
-    borderBottomColor: 'gray'
+    borderBottomColor: 'gray',
   },
   list: {
     flex: 1,
     backgroundColor: 'teal',
     paddingTop: 12,
-    padding: 16
-  }
+    padding: 16,
+  },
 });

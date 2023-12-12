@@ -38,7 +38,7 @@
       "place_id": "some place id 21",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 3,
       "rating": 4.4,
@@ -144,7 +144,7 @@
       "place_id": "some place id 23",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "rating": 4.4,
       "reference": "",
@@ -195,7 +195,7 @@
       "place_id": "some place id 24",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.5,
@@ -248,7 +248,7 @@
       "place_id": "some place id 25",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 3,
       "rating": 4.5,
@@ -300,7 +300,7 @@
       "place_id": "some place id 26",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.4,
@@ -352,7 +352,7 @@
       "place_id": "some place id 27",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.5,
@@ -404,7 +404,7 @@
       "place_id": "some place id 28",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 3,
       "rating": 4.5,
@@ -456,7 +456,7 @@
       "place_id": "some place id 29",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.5,
@@ -507,7 +507,7 @@
       "place_id": "some place id 30",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "rating": 4,
       "reference": "",
@@ -557,7 +557,7 @@
       "place_id": "some place id 31",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.6,
@@ -607,7 +607,7 @@
       "place_id": "some place id 32",
       "plus_code": {
         "compound_code": "",
-        "global_code": "",
+        "global_code": ""
       },
       "price_level": 2,
       "rating": 4.4,
@@ -708,326 +708,325 @@
       "plus_code": {
         "compound_code": "",
         "global_code": "",
+        "price_level": 2,
+        "rating": 4.3,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 1078,
+        "vicinity": "100 South Wacker Drive, Chicago"
       },
-      "price_level": 2,
-      "rating": 4.3,
-      "reference": "",
-      "scope": "",
-      "types": [
-        "bar",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "user_ratings_total": 1078,
-      "vicinity": "100 South Wacker Drive, Chicago"
-    },
-    {
-      "business_status": "CLOSED_TEMPORARILY",
-      "geometry": {
-        "location": {
-          "lat": 41.8864683,
-          "lng": -87.62409380000001
-        },
-        "viewport": {
-          "northeast": {
-            "lat": 41.8877839302915,
-            "lng": -87.62292246970848
+      {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+          "location": {
+            "lat": 41.8864683,
+            "lng": -87.62409380000001
           },
-          "southwest": {
-            "lat": 41.8850859697085,
-            "lng": -87.62562043029149
+          "viewport": {
+            "northeast": {
+              "lat": 41.8877839302915,
+              "lng": -87.62292246970848
+            },
+            "southwest": {
+              "lat": 41.8850859697085,
+              "lng": -87.62562043029149
+            }
           }
-        }
-      },
-      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      "name": "Sweetwater Tavern and Grille",
-      "permanently_closed": true,
-      "photos": [
-        {
-          "height": 717,
-          "html_attributions": [
-            ""
-          ],
-          "photo_reference": "",
-          "width": 1080
-        }
-      ],
-      "place_id": "some place id 35",
-      "plus_code": {
-        "compound_code": "",
-        "global_code": "",
-      },
-      "price_level": 2,
-      "rating": 4.2,
-      "reference": "",
-      "scope": "",
-      "types": [
-        "bar",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "user_ratings_total": 2203,
-      "vicinity": "225 Michigan Avenue, Chicago"
-    },
-    {
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 41.8730121,
-          "lng": -87.6261784
         },
-        "viewport": {
-          "northeast": {
-            "lat": 41.8743669802915,
-            "lng": -87.6247206197085
-          },
-          "southwest": {
-            "lat": 41.8716690197085,
-            "lng": -87.6274185802915
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Sweetwater Tavern and Grille",
+        "permanently_closed": true,
+        "photos": [
+          {
+            "height": 717,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 1080
           }
-        }
-      },
-      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-      "name": "Buddy Guy's Legends",
-      "photos": [
-        {
-          "height": 2048,
-          "html_attributions": [
-            ""
-          ],
-          "photo_reference": "",
-          "width": 1365
-        }
-      ],
-      "place_id": "some place id 36",
-      "plus_code": {
-        "compound_code": "",
-        "global_code": "",
-      },
-      "price_level": 2,
-      "rating": 4.6,
-      "reference": "",
-      "scope": "",
-      "types": [
-        "night_club",
-        "bar",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "user_ratings_total": 2118,
-      "vicinity": "700 South Wabash Avenue, Chicago"
-    },
-    {
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 41.89052059999999,
-          "lng": -87.6308469
+        ],
+        "place_id": "some place id 35",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": ""
         },
-        "viewport": {
-          "northeast": {
-            "lat": 41.89185658029149,
-            "lng": -87.6296195197085
+        "price_level": 2,
+        "rating": 4.2,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 2203,
+        "vicinity": "225 Michigan Avenue, Chicago"
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+          "location": {
+            "lat": 41.8730121,
+            "lng": -87.6261784
           },
-          "southwest": {
-            "lat": 41.88915861970849,
-            "lng": -87.63231748029152
+          "viewport": {
+            "northeast": {
+              "lat": 41.8743669802915,
+              "lng": -87.6247206197085
+            },
+            "southwest": {
+              "lat": 41.8716690197085,
+              "lng": -87.6274185802915
+            }
           }
-        }
-      },
-      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      "name": "Frontera Grill",
-      "opening_hours": {
-        "open_now": true
-      },
-      "photos": [
-        {
-          "height": 2667,
-          "html_attributions": [
-            ""
-          ],
-          "photo_reference": "",
-          "width": 4000
-        }
-      ],
-      "place_id": "some place id 37",
-      "plus_code": {
-        "compound_code": "",
-        "global_code": "",
-      },
-      "price_level": 2,
-      "rating": 4.5,
-      "reference": "",
-      "scope": "",
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "user_ratings_total": 2064,
-      "vicinity": "445 North Clark Street, Chicago"
-    },
-    {
-      "business_status": "CLOSED_TEMPORARILY",
-      "geometry": {
-        "location": {
-          "lat": 41.88231769999999,
-          "lng": -87.63612839999999
         },
-        "viewport": {
-          "northeast": {
-            "lat": 41.88371053029149,
-            "lng": -87.6350946697085
-          },
-          "southwest": {
-            "lat": 41.8810125697085,
-            "lng": -87.6377926302915
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+        "name": "Buddy Guy's Legends",
+        "photos": [
+          {
+            "height": 2048,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 1365
           }
-        }
-      },
-      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      "name": "One North Kitchen & Bar",
-      "permanently_closed": true,
-      "photos": [
-        {
-          "height": 768,
-          "html_attributions": [
-            ""
-          ],
-          "photo_reference": "",
-          "width": 1024
-        }
-      ],
-      "place_id": "some place id 38",
-      "plus_code": {
-        "compound_code": "",
-        "global_code": "",
-      },
-      "price_level": 2,
-      "rating": 4.1,
-      "reference": "",
-      "scope": "",
-      "types": [
-        "bar",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "user_ratings_total": 322,
-      "vicinity": "1 North Upper Wacker Drive, Chicago"
-    },
-    {
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 41.88433,
-          "lng": -87.632809
+        ],
+        "place_id": "some place id 36",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": ""
         },
-        "viewport": {
-          "northeast": {
-            "lat": 41.8856780802915,
-            "lng": -87.6313017697085
+        "price_level": 2,
+        "rating": 4.6,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "night_club",
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 2118,
+        "vicinity": "700 South Wabash Avenue, Chicago"
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+          "location": {
+            "lat": 41.89052059999999,
+            "lng": -87.6308469
           },
-          "southwest": {
-            "lat": 41.8829801197085,
-            "lng": -87.6339997302915
+          "viewport": {
+            "northeast": {
+              "lat": 41.89185658029149,
+              "lng": -87.6296195197085
+            },
+            "southwest": {
+              "lat": 41.88915861970849,
+              "lng": -87.63231748029152
+            }
           }
-        }
-      },
-      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      "name": "312 Chicago",
-      "opening_hours": {
-        "open_now": true
-      },
-      "photos": [
-        {
-          "height": 757,
-          "html_attributions": [
-            ""
-          ],
-          "photo_reference": "",
-          "width": 1024
-        }
-      ],
-      "place_id": "some place id 39",
-      "plus_code": {
-        "compound_code": "",
-        "global_code": "",
-      },
-      "price_level": 3,
-      "rating": 4.5,
-      "reference": "",
-      "scope": "",
-      "types": [
-        "bar",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "user_ratings_total": 810,
-      "vicinity": "136 North LaSalle Street, Chicago"
-    },
-    {
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 41.8880993,
-          "lng": -87.6327417
         },
-        "viewport": {
-          "northeast": {
-            "lat": 41.8894707302915,
-            "lng": -87.6313121197085
-          },
-          "southwest": {
-            "lat": 41.8867727697085,
-            "lng": -87.63401008029152
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Frontera Grill",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 2667,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 4000
           }
-        }
+        ],
+        "place_id": "some place id 37",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": "",
+        },
+        "price_level": 2,
+        "rating": 4.5,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 2064,
+        "vicinity": "445 North Clark Street, Chicago"
       },
-      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      "name": "Chicago Cut Steakhouse",
-      "opening_hours": {
-        "open_now": true
+      {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+          "location": {
+            "lat": 41.88231769999999,
+            "lng": -87.63612839999999
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 41.88371053029149,
+              "lng": -87.6350946697085
+            },
+            "southwest": {
+              "lat": 41.8810125697085,
+              "lng": -87.6377926302915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "One North Kitchen & Bar",
+        "permanently_closed": true,
+        "photos": [
+          {
+            "height": 768,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 1024
+          }
+        ],
+        "place_id": "some place id 38",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": ""
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 322,
+        "vicinity": "1 North Upper Wacker Drive, Chicago"
       },
-      "photos": [
-        {
-          "height": 1533,
-          "html_attributions": [
-            ""
-          ],
-          "photo_reference": "",
-          "width": 2239
-        }
-      ],
-      "place_id": "some place id 40",
-      "plus_code": {
-        "compound_code": "",
-        "global_code": "",
+      {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+          "location": {
+            "lat": 41.88433,
+            "lng": -87.632809
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 41.8856780802915,
+              "lng": -87.6313017697085
+            },
+            "southwest": {
+              "lat": 41.8829801197085,
+              "lng": -87.6339997302915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "312 Chicago",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 757,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 1024
+          }
+        ],
+        "place_id": "some place id 39",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": ""
+        },
+        "price_level": 3,
+        "rating": 4.5,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 810,
+        "vicinity": "136 North LaSalle Street, Chicago"
       },
-      "price_level": 4,
-      "rating": 4.5,
-      "reference": "",
-      "scope": "",
-      "types": [
-        "bar",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "user_ratings_total": 1860,
-      "vicinity": "300 North LaSalle Drive, Chicago"
-    }
-  ],
-  "status": "OK"
-}
+      {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+          "location": {
+            "lat": 41.8880993,
+            "lng": -87.6327417
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 41.8894707302915,
+              "lng": -87.6313121197085
+            },
+            "southwest": {
+              "lat": 41.8867727697085,
+              "lng": -87.63401008029152
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Chicago Cut Steakhouse",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 1533,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 2239
+          }
+        ],
+        "place_id": "some place id 40",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": "",
+        },
+        "price_level": 4,
+        "rating": 4.5,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 1860,
+        "vicinity": "300 North LaSalle Drive, Chicago"
+      }
+    ],
+    "status": "OK"
+  }

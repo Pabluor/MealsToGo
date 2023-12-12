@@ -10,6 +10,10 @@ import { theme } from "./src/infrastructure/theme";
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 
+import { restaurantsRequest } from './src/services/restaurants/restaurants.service';
+
+restaurantsRequest()
+
 const Tab = createBottomTabNavigator();
 
 const App = () => {

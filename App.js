@@ -1,10 +1,8 @@
 import React from 'react';
 import { StatusBar, StyleSheet } from 'react-native';
-import RestaurantsScreen from './src/features/restaurants/restaurants.screen';
+import { RestaurantsScreen } from './src/features/restaurants/screens/restaurants.screen';
 import { ThemeProvider } from "styled-components/native";
 import { theme } from "./src/infrastructure/theme";
-
-
 
 const App = () => {
   return (

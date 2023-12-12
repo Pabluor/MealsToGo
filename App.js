@@ -1,12 +1,19 @@
-import React, { useState } from 'react';
-import { StatusBar, SafeAreaView, StyleSheet } from 'react-native';
+import React from 'react';
+import { StatusBar, StyleSheet } from 'react-native';
 import RestaurantsScreen from './src/features/restaurants/restaurants.screen';
+import { ThemeProvider } from "styled-components/native";
+import { theme } from "./src/infrastructure/theme";
+
+
 
 const App = () => {
   return (
-    <SafeAreaView style={styles.appContainer}>
-      <RestaurantsScreen />
-    </SafeAreaView>
+    <>
+      <ThemeProvider theme={theme}>
+        <RestaurantsScreen />
+      </ThemeProvider>
+      <StatusBar style="auto" />
+    </>
   );
 };
 

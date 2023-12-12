@@ -1,21 +1,16 @@
 import { View, StyleSheet } from 'react-native'
 import React from 'react'
-import { IconButton } from 'react-native-paper';
 
-import { spacing } from '../../utils/sizes';
+import { SvgXml } from 'react-native-svg';
+import star from '../../assets/star';
 
 
 const RestaurantRating = ({ rating }) => {
   return (
     <View style={styles.ratingWrapper}>
       {[...Array(rating)].map((e, i) =>
-        <IconButton
-          key={i}
-          size={spacing.lg}
-          style={styles.star}
-          icon='star'
-          iconColor='goldenrod'
-        />)}
+        <SvgXml key={i} width="24" height="24" xml={star} />
+      )}
     </View>
   )
 }
@@ -23,8 +18,7 @@ const RestaurantRating = ({ rating }) => {
 const styles = StyleSheet.create({
   ratingWrapper: {
     flexDirection: 'row',
-    justifyContent: 'flex-start',
-    marginBottom: spacing.sm
+    justifyContent: 'flex-start'
   },
   star: {
     padding: 0,

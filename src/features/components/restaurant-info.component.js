@@ -1,14 +1,41 @@
 import { View, StyleSheet } from 'react-native'
 import React from 'react'
 import { Avatar, IconButton, Card, Text } from 'react-native-paper';
-import { spacing } from '../../utils/sizes';
 import RestaurantRating from './restaurant-rating.component';
+import styled from 'styled-components/native'
+import { SvgXml } from 'react-native-svg';
+import open from '../../assets/open';
 
-spacing
+
+const RestaurantCard = styled(Card)`
+  padding: ${(props) => props.theme.space[2]};
+  border-radius: ${(props) => props.theme.space[1]};
+`
+const RestaurantCardCover = styled(Card.Cover)`
+  padding: ${(props) => props.theme.space[1]};
+  background-color: ${(props) => props.theme.colors.bg.primary};
+  margin-bottom: ${(props) => props.theme.space[3]};
+`;
+
+const Title = styled(Text)`
+  font-size: ${(props) => props.theme.fontSizes.body};
+  color: ${(props) => props.theme.colors.ui.primary};
+  margin-bottom:  ${(props) => props.theme.space[2]}
+`;
+
+const Address = styled(Text)`
+  font-size: ${(props) => props.theme.fontSizes.caption};
+  margin-top:  ${(props) => props.theme.space[2]}
+`;
+
+const RatingOpenedContainer = styled(View)`
+  flex-direction: row;
+  justify-content: space-between;
+`
 
 const RestaurantInfo = ({ restaurant = {} }) => {
   const {
-    name = 'Some Restaurant',
+    name = 'Nouveau component',
     icon,
     photos = ['https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'],
     address = '100 some random street',
@@ -18,35 +45,18 @@ const RestaurantInfo = ({ restaurant = {} }) => {
   } = restaurant
 
   return (
-    <Card style={styles.restaurantCard}>
-      <Card.Cover style={styles.restaurantPhoto} source={{ uri: photos[0] }} />
-      <Card.Content style={styles.restaurantInfo}>
-        <Text style={styles.restaurantName} variant="titleMedium">{name}</Text>
-        <RestaurantRating rating={rating} />
-        <Text variant="bodyMedium">{address}</Text>
+    <RestaurantCard >
+      <RestaurantCardCover key={name} source={{ uri: photos[0] }} />
+      <Card.Content>
+        <Title >{name}</Title>
+        <RatingOpenedContainer>
+          <RestaurantRating rating={rating} />
+          {isOpenNow && <SvgXml width="24" height="24" xml={open} />}
+        </RatingOpenedContainer>
+        <Address>{address}</Address>
       </Card.Content>
-    </Card>
+    </RestaurantCard>
   )
 }
-
-const styles = StyleSheet.create({
-  restaurantCard: {
-    padding: spacing.md,
-    borderRadius: 4,
-  },
-  restaurantPhoto: {
-    borderRadius: 4,
-    height: 180,
-    resizeMode: 'stretch'
-  },
-  restaurantInfo: {
-    padding: 0,
-    marginHorizontal: -8
-  },
-  restaurantName: {
-    marginTop: spacing.md,
-    marginBottom: spacing.sm
-  },
-})
 
 export default RestaurantInfo
